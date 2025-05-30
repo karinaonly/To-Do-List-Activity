@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { MdDelete } from "react-icons/md";
 
-function todolistFunction() {
+function toDoListFunction() {
     const [tasks, setTasks] = useState([
     ]);
     const [newTask, setNewTask] = useState("");
@@ -56,11 +56,10 @@ function todolistFunction() {
             <div className='min-w-[400px] mt-4'>
                 <ol>
                     {tasks.map((task, index) => (
-                        <li className="flex justify-between items-center px-5 py-2">
+                        <li className="flex justify-between items-center px-5 py-2" key={index}>
                             <div className="flex gap-4 items-center">
                                 <input
                                     type="checkbox"
-                                    key={index}
                                     checked={task.checked}
                                     onChange={() => handleCheckbox(index)}
                                     className="custom-checkbox"
@@ -87,4 +86,4 @@ function todolistFunction() {
     );
 }
 
-export default todolistFunction;
+export default toDoListFunction;
