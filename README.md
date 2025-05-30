@@ -6,6 +6,9 @@
 
 A simple To-Do List application built with React and CSS. It helps user to easily add, check off, and delete daily tasks.
 
+# Live Demo
+* [Here](https://to-do-list-activity-eosin.vercel.app/)
+
 ## Features
 
 * Add tasks to your list.
