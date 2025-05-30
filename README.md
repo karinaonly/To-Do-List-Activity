@@ -1,12 +1,67 @@
-# React + Vite
+<p align="center">
+<!--   <img src="YOUR_LOGO_IMAGE_URL" alt="Logo" width="200"/> -->
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# PAYROLL MANAGEMENT SYSTEM 
 
-Currently, two official plugins are available:
+ITEC 80A - Simple Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+* Admin manage employee salary.
+* Login two types of account (Admin and Employee) | Auto filter login.
+* Forgot Password with OTP / recovery code sent through email.
+* Export PDF files for Reports as well as list of employee, etc.
+* Integrated system - Mailer (API).
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Help And Guide ( Git Commands )
+
+### Initialize repository
+
+* **git init**
+    * (one time only | Pag naka pag init kana di mo na kilangan pa ulit mag init pa).
+* **git branch -m main**
+    * (Change from master to main).
+* **git remote add origin "--GIT REPOSITORY LINK--"**
+    * (one time only | Pag naka pag remote add kana di mo na kilangan pa ulit mag remote).
+ 
+### Retrieve Data from Github Repository
+
+* **git pull origin main**
+    * (retrieve data from git repository).
+      
+### Upload New Update to Github Repository
+
+* **git add .**
+    * (Add all data in folder to repository).
+* **git commit -m "--COMMENT--"**
+    * (Save and Add comment in file).
+* **git push origin main**
+    * (Upload the file to GIT repository ).
+<br/>
+
+### NOTE (FOR CONTRIBUTORS)
+* Always back up your files before pulling from the repository.
+    * To prevent lost of your new updates.
+
+## Authors
+
+Contributors
+* [Jj](https://github.com/jjharvey00)
+* [Rod](https://github.com/Rodney22-blimp)
+* [Yrria](https://github.com/Yrria)
+* [DH-Nyel](https://github.com/karinaonly)
+* [Jps](https://github.com/JPMacaspac)
+* [Nix](https://github.com/6nix)
+
+
+## Purpose
+
+This project is for educational purposes only. It is used to fulfill the requirements for a course subject.
+<br/>
+ITEC 80A - HUMAN COMPUTER INTERACTION 1.
+
+## Acknowledgments
+
+Inspiration, code snippets, reference etc.
+  
