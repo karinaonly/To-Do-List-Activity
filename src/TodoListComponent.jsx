@@ -53,7 +53,7 @@ function todolistFunction() {
                 Add
                 </button>
             </div>
-            <div className='min-w-[400px] mt-4'>
+            <div className='min-w-[500px] mt-4'>
                 <ol>
                     {tasks.map((task, index) => (
                         <li className="flex justify-between items-start px-4 py-2">
