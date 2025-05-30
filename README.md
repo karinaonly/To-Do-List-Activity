@@ -39,17 +39,16 @@ A simple To-Do List application built with React and CSS. It helps user to easil
 
 ## Setup Instructions
 * Clone the repository
-* git clone https://github.com/karinaonly/To-Do-List-Activity
-* cd To-Do-List-Activity
+  git clone https://github.com/karinaonly/To-Do-List-Activity
+  cd To-Do-List-Activity
 
 * Install dependencies
-* npm install
+  npm install
 
 * Run locally
-* npm run dev
-
+  npm run dev
 
 ## Author
-* [DH-Nyel](https://github.com/karinaonly)
+* [Dhaniel](https://github.com/karinaonly)
 
   
