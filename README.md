@@ -23,8 +23,7 @@ A simple To-Do List application built with React and CSS. It helps user to easil
   * cd To-Do-List-Activity
   * npm install
   * npm run dev)
-
-
+```
 ## Author
 * [Dhaniel](https://github.com/karinaonly)
 
