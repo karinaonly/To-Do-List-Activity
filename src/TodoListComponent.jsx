@@ -37,7 +37,7 @@ function todolistFunction() {
 
     return (
         <div className="mainDiv flex flex-col items-center w-full max-w-md mx-auto p-6 rounded-lg shadow-lg">
-            <div className='flex flex-col items-center w-[400px] space-y-2'>
+            <div className='flex flex-col items-center w-[300px] space-y-2'>
                 <h1>To-Do List</h1>
                 <input
                 type="text"
@@ -53,7 +53,7 @@ function todolistFunction() {
                 Add
                 </button>
             </div>
-            <div className='min-w-[500px] mt-4'>
+            <div className='min-w-[300px] mt-4'>
                 <ol>
                     {tasks.map((task, index) => (
                         <li className="flex justify-between items-start px-4 py-2">
