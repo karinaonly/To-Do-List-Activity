@@ -2,19 +2,16 @@
 <!--   <img src="YOUR_LOGO_IMAGE_URL" alt="Logo" width="200"/> -->
 </p>
 
-# PAYROLL MANAGEMENT SYSTEM 
+# To-Do-List App
 
-ITEC 80A - Simple Project
+A simple To-Do List application built with React and CSS. It helps user to easily add, check off, and delete daily tasks.
 
 ## Features
 
-* Admin manage employee salary.
-* Login two types of account (Admin and Employee) | Auto filter login.
-* Forgot Password with OTP / recovery code sent through email.
-* Export PDF files for Reports as well as list of employee, etc.
-* Integrated system - Mailer (API).
-
-## Help And Guide ( Git Commands )
+* Add tasks to your list.
+* Mark tasks as completed.
+* Delete a task from the list.
+* Tasks stay organized (checked items move to the top).
 
 ### Initialize repository
 
@@ -40,28 +37,19 @@ ITEC 80A - Simple Project
     * (Upload the file to GIT repository ).
 <br/>
 
-### NOTE (FOR CONTRIBUTORS)
-* Always back up your files before pulling from the repository.
-    * To prevent lost of your new updates.
+## Setup Instructions
+* Clone the repository
+* git clone https://github.com/karinaonly/To-Do-List-Activity
+* cd To-Do-List-Activity
 
-## Authors
+* Install dependencies
+* npm install
 
-Contributors
-* [Jj](https://github.com/jjharvey00)
-* [Rod](https://github.com/Rodney22-blimp)
-* [Yrria](https://github.com/Yrria)
+* Run locally
+* npm run dev
+
+
+## Author
 * [DH-Nyel](https://github.com/karinaonly)
-* [Jps](https://github.com/JPMacaspac)
-* [Nix](https://github.com/6nix)
 
-
-## Purpose
-
-This project is for educational purposes only. It is used to fulfill the requirements for a course subject.
-<br/>
-ITEC 80A - HUMAN COMPUTER INTERACTION 1.
-
-## Acknowledgments
-
-Inspiration, code snippets, reference etc.
   
