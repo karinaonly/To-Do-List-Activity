@@ -53,13 +53,14 @@ function todolistFunction() {
                 Add
                 </button>
             </div>
-            <div className='min-w-[300px] mt-4'>
+            <div className='min-w-[400px] mt-4'>
                 <ol>
                     {tasks.map((task, index) => (
-                        <li className="flex justify-between items-start px-4 py-2">
-                            <div className="flex gap-3">
+                        <li className="flex justify-between items-center px-5 py-2">
+                            <div className="flex gap-4 items-center">
                                 <input
                                     type="checkbox"
+                                    key={index}
                                     checked={task.checked}
                                     onChange={() => handleCheckbox(index)}
                                     className="custom-checkbox"
@@ -74,7 +75,7 @@ function todolistFunction() {
                                 onClick={() => deleteTask(index)}
                                 className="delete-button"
                                 >
-                                <MdDelete size={22} />
+                                <MdDelete size={25} />
                             </button>
 
                         </li>
